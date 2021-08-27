@@ -106,13 +106,10 @@ input, textarea {
 }
 
 textarea {
-    resize: none;
-    /*min-width: 100%;
-    max-width: 100%;
-    min-height: 250px;
-    max-height: 250px;*/
-    height: 300px;
-    /* border: 2px solid #359E7B*/
+    max-height: 300px;
+    min-height: 300px;
+    max-width: 475px;
+    min-width: 475px;
 }
 
 input[type="submit"] {
